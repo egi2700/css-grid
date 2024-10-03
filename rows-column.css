@@ -1,0 +1,50 @@
+*,html,body {
+    margin: 0;
+    padding: 0;
+}
+
+/* nilai default grid-auto-flow adalah row atau sumbu Y alias ke bawah */
+.container{
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100px 150px 200px ;
+    grid-template-rows: 50px 100px;
+    grid-auto-rows: 100px;
+    grid-auto-columns: 250px;
+    grid-auto-flow: column;
+    gap: 2px;
+}
+
+.item-satu {
+    background-color: brown;
+}
+.item-tiga {
+    background-color: brown;
+}
+.item-lima {
+    background-color: brown;
+}
+.item-tujuh {
+    background-color: brown;
+}
+.item-sembilan {
+    background-color: brown;
+}
+
+.item-dua {
+    background-color: burlywood;
+}
+.item-empat {
+    background-color: burlywood;
+}
+.item-enam {
+    background-color: burlywood;
+}
+.item-delapan {
+    background-color: burlywood;
+}
+.item-sepuluh {
+    background-color: burlywood;
+}
